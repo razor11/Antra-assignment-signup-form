@@ -1,0 +1,35 @@
+body {
+    --bs-body-font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.btn-success {
+    --bs-btn-bg: #5DB85B;
+}
+
+.btn-primary {
+    --bs-btn-bg: #428BCA;
+}
+
+.bg-primary {
+    background-color: #428BCA !important;
+    padding: 0.1rem;
+}
+
+.text-info {
+    color: #428BCA !important;
+}
+
+
+button {
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 49%;
+}
